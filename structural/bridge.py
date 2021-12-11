@@ -1,3 +1,5 @@
+# 구현부에서 추상층을 분리하여 각자 독립적으로 변형할 수 있게 하는 패턴이다.
+
 # Implementor
 class DrawingAPI:
     def draw_circle(self, x, y, radius):
